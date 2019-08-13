@@ -30,7 +30,7 @@ AddTaskResult UploadTasks::appendTask(QString path)
 
     DataProgress* dp = new DataProgress;
     dp->setFileName(fileName);
-    dp->setProgress(0, size/1024);
+    dp->setProgress(0, size);
     uploadFile->dp = dp;
 
     // 添加进度条到Upload布局

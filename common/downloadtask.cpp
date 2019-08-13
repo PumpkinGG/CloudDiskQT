@@ -32,7 +32,7 @@ AddTaskResult DownloadTask::appendTask(FileInfo *fileInfo, QString filePath)
 
     DataProgress* dp = new DataProgress;
     dp->setFileName(fileName);
-    dp->setProgress(0, fileInfo->size/1024);
+    dp->setProgress(0, fileInfo->size);
     downloadFile->dp = dp;
 
     // 添加进度条到Upload布局

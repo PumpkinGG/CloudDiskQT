@@ -10,9 +10,9 @@
 
 #define cout qDebug() << "[ " << __FILE__ << ":"  << __LINE__ << " ] "
 
-const QString kConfigFile = "../config/config.json";  // 配置文件路径
-const QString kRecordDir = "../config/record/";  // 用户文件上传下载记录
-const QString kFiletypeDir = "../config/filetype/";   // 存放文件类型图片目录
+const QString kConfigFile = "config/config.json";  // 配置文件路径
+const QString kRecordDir = "config/record/";  // 用户文件上传下载记录
+const QString kFiletypeDir = "config/filetype/";   // 存放文件类型图片目录
 
 /*--------------------------------\
 | Url
